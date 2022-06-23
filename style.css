@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Popping:200,300,400,500,600,700,800,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Popping:200,300,400,500,600,700,800,900&display=swap'); */
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: 'popping',sans-serif;
 }
-
+/* BODY */
 body
 {
     background: lightblue;
@@ -16,6 +16,7 @@ body
     align-items: center;
     min-height: 100vh;
 }
+/* container */
 .container
 {
     position: relative;
@@ -28,6 +29,7 @@ body
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
+/*Partie gauche*/
 .container .left_Side
 {
     background-color: #353e47;
@@ -132,7 +134,7 @@ body
     height: 100%;
     background: #03a9f4;
 }
-
+/* Partie droite */
 .container .right_Side
 {
     background-color: #fff;
@@ -179,6 +181,10 @@ p
     color: black;
     font-size: 16px;
 }
+.experience .box .text .ul
+{
+    margin-left: 10px;
+}
 
 .formation .box
 {
@@ -217,24 +223,20 @@ p
     margin-left: 150px;
     font-size: 16px;
 }
-.centre .text
-{
-    margin-left: 150px;
-    font-size: 16px;
-}
-.loisirs ul
+
+.centre ul
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.loisirs ul li
+.centre ul li
 {
     list-style: none;
     color: #333;
     font-weight: 500;
     margin: 10px 0;
 }
-.loisirs ul li .fa 
+.centre ul li .fa 
 {
     color: #03a9f4;
     font-size: 18px;
@@ -248,7 +250,7 @@ p
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
     }
-    .loisirs ul
+    .centre ul
     {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -266,7 +268,7 @@ p
         min-width: 150px;
         margin-bottom: 5px;
     }
-    .loisirs ul
+    .centre ul
     {
         grid-template-columns: repeat(1,1fr);
     }
